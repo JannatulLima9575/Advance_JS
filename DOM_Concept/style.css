@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    color: blue;
+}
+p {
+    font-size: 16px;
+    color: green;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    margin: 5px 0;
+    text-decoration: none;
+}
