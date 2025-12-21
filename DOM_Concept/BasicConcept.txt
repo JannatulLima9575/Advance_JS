@@ -1,0 +1,72 @@
+## The Concept of DOM
+
+Document: The entire web page.
+Object:Each element in HTML (e.g. <div>, <h1>, <a>) has a JavaScript equivalent.
+Model: These objectives are arranged in a neat manner.
+
+## Main step of DOM Manipulation:
+
+1.Selecting: 
+2.Traversing:
+3.Manipulating:
+4.Events:
+
+# JavaScript DOM (Document Object Model) - Study Notes
+
+## 🟢 The Concept of DOM
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content.
+
+* **Document:** The entire web page loaded in the browser.
+* **Object:** Each element in HTML (e.g. `<div>`, `<h1>`, `<a>`) has a JavaScript equivalent/object.
+* **Model:** These objects are arranged in a logical tree structure (The DOM Tree).
+
+---
+
+## 🛠️ Main Steps of DOM Manipulation
+
+### 1. Selecting Elements
+To change something, you first need to find it. JavaScript provides several methods to target HTML elements:
+
+| Method | Description |
+| :--- | :--- |
+| `getElementById()` | Selects a single element by its unique ID. |
+| `getElementsByClassName()` | Selects all elements with a specific class (returns an HTMLCollection). |
+| `querySelector()` | Uses CSS selectors to find the **first** matching element. |
+| `querySelectorAll()` | Finds **all** matching elements for a CSS selector (returns a NodeList). |
+
+---
+
+### 2. Traversing the DOM
+Traversing is the process of moving between elements based on their relationship in the "Tree":
+
+* **Parent Node:** Moving upwards (e.g., `element.parentElement`).
+* **Child Nodes:** Moving downwards to find children (e.g., `element.children` or `element.firstElementChild`).
+* **Sibling Nodes:** Moving sideways to find the next or previous element (e.g., `nextElementSibling`, `previousElementSibling`).
+
+---
+
+### 3. Manipulating Elements
+This is where you change the content, structure, or style of the selected element:
+
+* **Changing Content:** Using `innerText`, `textContent`, or `innerHTML`.
+* **Changing Styles:** Accessing the style property (e.g., `element.style.color = 'red'`).
+* **Attributes & Classes:**
+    * `classList.add()` / `classList.remove()` / `classList.toggle()`.
+    * `setAttribute('attr', 'value')` to modify attributes.
+* **Creating/Deleting:** * `document.createElement()` to create new elements.
+    * `appendChild()` or `prepend()` to add to the page.
+    * `element.remove()` to delete an element.
+
+---
+
+### 4. Handling Events
+Events make the page interactive by "listening" for user actions:
+
+* **`addEventListener()`**: The standard way to attach an event handler to an element.
+* **Common Event Types:**
+    * **Mouse Events:** `click`, `dblclick`, `mouseenter`.
+    * **Keyboard Events:** `keydown`, `keyup`.
+    * **Form Events:** `submit`, `change`, `input`.
+* **Callback Function:** The function that runs as soon as the event is triggered.
+
+---
