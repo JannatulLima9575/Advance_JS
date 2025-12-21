@@ -1,0 +1,99 @@
+## Important Interview Question from DOM
+
+🔹 DOM (Document Object Model)
+
+Q1. What is DOM?
+A: DOM is a programming interface that represents an HTML document as a tree of objects.
+
+Q2. Why is DOM needed?
+A: It allows JavaScript to access, modify, and control HTML elements dynamically.
+
+Q3. Is DOM a programming language?
+A: No, DOM is an API provided by the browser.
+
+Q4. What structure does DOM follow?
+A: DOM follows a hierarchical tree structure.
+
+🔹 Document in JavaScript
+
+Q5. What is document in JavaScript?
+A: document is the root object that represents the entire HTML page.
+
+Q6. What can we do using document?
+A: Select elements, change content, modify styles, and handle events.
+
+Q7. Difference between window and document?
+A: window represents the browser, while document represents the web page.
+
+🔹 Object Model
+
+Q8. What is Object Model in JavaScript?
+A: It is a structured representation of browser-related objects.
+
+Q9. What are the types of Object Models?
+A: DOM (Document Object Model) and BOM (Browser Object Model).
+
+Q10. What is BOM?
+A: BOM deals with browser features like window, location, and history.
+
+🔹 DOM Selection
+
+Q11. How do you select an element by ID?
+A: document.getElementById()
+
+Q12. What is querySelector()?
+A: It selects the first element that matches a CSS selector.
+
+Q13. Difference between querySelector and querySelectorAll?
+A: querySelector returns one element, querySelectorAll returns multiple elements.
+
+🔹 DOM Manipulation
+
+Q14. How do you change text in DOM?
+A: Using innerText, textContent, or innerHTML.
+
+Q15. Difference between innerText and textContent?
+A: innerText shows visible text, textContent shows all text.
+
+Q16. How do you change CSS using DOM?
+A: element.style.property = value
+
+Q17. How do you add or remove a class?
+A: Using classList.add() and classList.remove().
+
+🔹 DOM Events
+
+Q18. What is an event in JavaScript?
+A: An event is a user action like click, submit, or keypress.
+
+Q19. How do you handle events?
+A: Using addEventListener().
+
+Q20. Difference between onclick and addEventListener?
+A: addEventListener allows multiple event handlers.
+
+🔹 Create & Remove Elements
+
+Q21. How do you create a new element?
+A: document.createElement()
+
+Q22. How do you remove an element?
+A: element.remove()
+
+🔹 Performance & Best Practice
+
+Q23. Why is DOM manipulation slow?
+A: Because it causes browser repaint and reflow.
+
+Q24. How can DOM performance be improved?
+A: By reducing DOM access and using event delegation.
+
+🔹 One-Line Interview Summary
+
+DOM: Controls HTML with JavaScript
+
+document: Root of the DOM
+
+window: Browser object
+
+DOM manipulation: Dynamic UI changes
