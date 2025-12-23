@@ -1,0 +1,10 @@
+1. What is an Event?
+Ans: An event is an action or occurrence that happens in the browser, usually triggered by the user or the system.
+
+2. Types of Events in JavaScript?
+Ans: JavaScript events are mainly divided into 5 types. such as,
+    i. Mouse Events
+    ii. Keyboard Events
+    iii. Form Events
+    iv. Window / Document Events
+    v. Clipboard & Touch Events

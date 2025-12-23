@@ -17,9 +17,9 @@ const title2Text = document.getElementById("title2").innerText;
 console.log(title2Text);
 document.getElementById("title2").innerText = "Top DOM Methods Updated";
 
-const classElements = document.getElementsByClassName("paragraph1");
-classElements.style.color = "Purple";
-for(const elem of classElements){
-    elem.style.fontWeight = "bold";
-    console.log(elem.innerText);
-}
+
+const ol = document.getElementById("append");
+const li = document.createElement("li");
+li.innerText = "appendChild";
+ol.appendChild(li);
+console.log(ol);
