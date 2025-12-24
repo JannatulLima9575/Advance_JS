@@ -1,1 +1,9 @@
 ## Click Even handler
+
+## Common HTML Events (Event handler)
+    i. onClick
+    ii. onChange
+    iii. onMouseHover
+    iv. onKeyDown
+    v. onLoad
+    vi. onBlur

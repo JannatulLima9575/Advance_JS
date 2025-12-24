@@ -8,3 +8,16 @@ Ans: JavaScript events are mainly divided into 5 types. such as,
     iii. Form Events
     iv. Window / Document Events / DOM / UI event 
     v. Touch Events & Clipboard
+
+
+
+    ii. add Event Listener
+
+
+## Common HTML Events (Event handler)
+    i. onClick
+    ii. onChange
+    iii. onMouseHover
+    iv. onKeyDown
+    v. onLoad
+    vi. onBlur

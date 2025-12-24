@@ -1,0 +1,48 @@
+## Add Event listener
+addEventListener() is a JavaScript method used to attach an event handler to an HTML element. 
+It listens for a specific event (such as a click, key press, or mouse movement) and 
+executes a function when that event occurs.
+
+[addEventListener() is a JavaScript method that listens for specific events on an HTML element and executes a function when the event occurs.]
+
+## Types of Events in addEventListener
+
+    1. Mouse Events:
+    i.click
+    ii. dblClick
+    iii. mouseOver
+    iv. mouseOut
+    v. mouseMove
+
+    2. Keyboard Events: 
+    i. keyDown
+    ii. keyUp
+    iii. keyPress
+
+    3. Form Events:
+    i. submit
+    ii. change
+    iii. focus
+    iv. blur
+
+    4. Window / Document Events:
+    i. load
+    ii. scroll
+    iii. resize
+
+## Why use addEventListener?
+
+    a. Allows multiple event handlers on the same element
+    b. Keeps JavaScript separate from HTML
+    c. Follows modern JavaScript best practices
+
+    ## Example:
+        <button id="btn">Click Me</button>
+
+        <script>
+
+        document.getElementById("btn").addEventListener("click", function () {
+        alert("Button was clicked");
+        });
+
+        </script>
