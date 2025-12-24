@@ -12,11 +12,16 @@
     <input id="name_input" type="text" name="eventInput" placeholder="Enter your name" value="">
     <button onclick="logEvent()" type="button">Submit</button>
 
+    <h2 id="name">Name : </h2>
+
     <script>
         function logEvent() {
+            const nameElement = document.getElementById('name');
             const inputElement = document.getElementById('name_input');
             const event = inputElement.value;
             console.log(event);
+            nameElement.textContent = "Name : " + event;
+            alert(event);
         }
     </script>
 </body>
