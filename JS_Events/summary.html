@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Summary</h1>
+    <p>This page summarizes various JavaScript events.</p>
+
+    <input id="name_input" type="text" name="eventInput" placeholder="Enter your name" value="">
+    <button onclick="logEvent()" type="button">Submit</button>
+
+    <script>
+        function logEvent() {
+            const inputElement = document.getElementById('name_input');
+            const event = inputElement.value;
+            console.log(event);
+        }
+    </script>
+</body>
+</html>
