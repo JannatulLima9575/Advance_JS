@@ -1,0 +1,28 @@
+## Event Bubbling
+Event Bubbling is a concept in JavaScript where an event starts from the target element and then
+propagates upward through its parent elements in the DOM hierarchy.
+
+    ## Example of Event Bubbling:
+    <div id="parent">
+    <button id="child">Click Me</button>
+    </div>
+
+    <script>
+    document.getElementById("parent").addEventListener("click", function () {
+    console.log("Parent clicked");
+    });
+
+    document.getElementById("child").addEventListener("click", function () {
+    console.log("Child clicked");
+    });
+    </script>
+
+## For Stop 
+    >> stopPropagation
+
+
+## Event Flow:
+
+   >> Capturing Phase (top to down)
+   >> Target Phase (actual element)
+   >> Bubbling Phase (bottom to up) (default)
